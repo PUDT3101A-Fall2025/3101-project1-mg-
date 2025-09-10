@@ -21,8 +21,12 @@
             width: 100%; 
             height: 100%; 
             grid-column: 1/4;
+            display: subgrid; 
         }
 
+        #item1 button{ 
+            grid-column:2
+        }
         #item2 {
             background:green;
             grid-row:3;
@@ -33,7 +37,7 @@
     </style>
 </head>
 <body>
-    <div id= "item1"> Item 1</div>
+    <div id= "item1"> spanItem 1</div>
     <div id= "item2"> Item 2</div>
     
 
